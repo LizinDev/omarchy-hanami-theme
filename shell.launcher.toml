@@ -1,0 +1,21 @@
+# hanami override for [launcher].
+# NOTE: a section override REPLACES the whole section, so every key the
+# generated shell.toml had is restated here. Hex values are copied from
+# colors.toml -- if the palette changes, re-sync this file.
+
+# Same six tokens as [menu], applied to the launcher overlay. Alpha
+# companions go from 0 (invisible) to 1 (opaque). scrim is the full-screen
+# dim layer behind the card; background is the card itself. Defaults
+# mirror [menu] with the card at 0.95 to preserve the legacy translucency.
+background                = "#141821"
+background-alpha          = 0.95
+text                      = "#c3b5ae"
+border                    = "#c3b5ae"
+border-alpha              = 0.25
+scrim                     = "#141821"
+scrim-alpha               = 0.5
+selected-background       = "#c3b5ae"
+selected-background-alpha = 0.08
+selected-text             = "#c47a93"
+selected-border           = "#c47a93"
+selected-border-alpha     = 0.50

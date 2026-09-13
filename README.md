@@ -26,7 +26,7 @@ omarchy theme install https://github.com/LizinDev/omarchy-hanami-theme.git
 | selection | `#2c3444` | text selection, btop meters |
 | muted | `#535a6c` | ANSI bright-black, dividers |
 
-ANSI: `#b96c77` red · `#729a79` green · `#c5a377` yellow · `#7186a8` blue ·
+ANSI: `#bd6968` red · `#729a79` green · `#c5a377` yellow · `#7186a8` blue ·
 `#a87aa0` magenta · `#6f9aa8` cyan.
 
 Mean ANSI saturation is 0.34 — the blossom pink that dominates the source image sits at

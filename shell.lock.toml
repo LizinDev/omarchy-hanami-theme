@@ -12,10 +12,10 @@ background       = "#141821"
 background-alpha = 0.8
 text             = "#c3b5ae"
 placeholder      = "#88807e"
-text-error       = "#b96c77"
+text-error       = "#bd6968"
 border           = "#535a6c"
 border-active    = "hyprland.active-border"
-border-error     = "#b96c77"
+border-error     = "#bd6968"
 border-alpha     = 1.0
 # selection is the text-selection tint inside the input field.
 selection        = "#c47a93"

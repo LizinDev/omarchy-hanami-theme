@@ -16,6 +16,9 @@ light, exactly as the picture reads.
 omarchy theme install https://github.com/LizinDev/omarchy-hanami-theme.git
 ```
 
+Installing applies the theme right away. To switch back to it later, run
+`omarchy theme set hanami`; to uninstall it, run `omarchy theme remove hanami`.
+
 ## Palette
 
 | Role | Hex | |
@@ -91,3 +94,9 @@ omarchy theme set hanami
 ```
 
 Iterate with `omarchy theme refresh`.
+
+## License
+
+The theme files are released under the [MIT License](LICENSE). The pixel art the palette
+was designed against is someone else's work. It is not in this repository and the
+license does not cover it.

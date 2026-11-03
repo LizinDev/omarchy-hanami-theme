@@ -46,6 +46,7 @@ Mean ANSI saturation is 0.34 — the blossom pink that dominates the source imag
 | `backgrounds/` | a palette-derived gradient (see below) |
 | `preview.png` | theme-switcher tile |
 | `unlock.png` | Plymouth boot splash and SDDM logo |
+| `preview-unlock.png` | the boot splash's preview, which lists the theme in `omarchy plymouth list` |
 
 ## Backgrounds
 

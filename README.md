@@ -39,7 +39,7 @@ Mean ANSI saturation is 0.34 — the blossom pink that dominates the source imag
 
 | File | |
 |---|---|
-| `colors.toml` | the palette — generates 17 app configs on its own |
+| `colors.toml` | the palette Omarchy uses to render its installed app templates |
 | `hyprland.lua` | rose→blue border gradient + a warm shadow on the focused window |
 | `shell.{menu,launcher,tooltip,lock}.toml` | per-section shell overrides |
 | `icons.theme` | `Yaru-magenta-dark` |
@@ -55,8 +55,10 @@ theme was designed against a piece of pixel art, but that is someone else's work
 not redistributed. Drop your own in:
 
 ```bash
-cp <your-wallpaper> ~/.config/omarchy/themes/hanami/backgrounds/1-hanami.png
+mkdir -p ~/.config/omarchy/backgrounds/hanami
+cp ~/Pictures/wallpaper.png ~/.config/omarchy/backgrounds/hanami/1-hanami.png
 omarchy theme set hanami
+omarchy theme bg set ~/.config/omarchy/backgrounds/hanami/1-hanami.png
 ```
 
 If your wallpaper is a JPEG of pixel art it is probably damaged — JPEG smears hard pixel
